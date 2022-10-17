@@ -7,9 +7,9 @@ public class Tester {
         Scanner sc = new Scanner(System.in);
         String s;
         GameOfLifeEngine game = new GameOfLifeEngine();
-        
+
         game.initialize2();
-        
+
         do
         {
             System.out.print(game);
